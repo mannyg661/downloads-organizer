@@ -37,7 +37,7 @@ def file_manager(source_dir, destination_dir):
         if os.path.join(source_dir, file_name).endswith(tuple(programs)):
             shutil.move(os.path.join(source_dir, file_name), os.path.join(destination_dir, 'programs'))
 
-    print('Your files have bene organized')
+    print('Your files have been organized')
 
 
 file_manager('C:\\Users\\naria\\Downloads', 'C:\\Users\\naria\\Downloads')
